@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Список груп</title>
+</head>
+<body>
+    <ul>
+        {% for group in groups %}
+            <li>{{ group.name }} (Куратор: {{ group.curator.full_name }})</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
