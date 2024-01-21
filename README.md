@@ -1,0 +1,1 @@
+Analog of school site
